@@ -1,0 +1,23 @@
+#agregar{
+    background-color: rgb(21, 255, 0);
+}
+
+#perfil{
+    background: linear-gradient(to bottom, #3366ff 0%, #ff99cc 100%);}
+
+#detalles{
+    background: linear-gradient(to bottom, #00ccff 0%, #ff99cc 100%);
+}
+
+#agregarContacto{
+    background: linear-gradient(to bottom, #cc0066 0%, #ff99cc 100%);
+}
+
+#login{
+    background: linear-gradient(to bottom, #0066ff 0%, #33ccff 100%);
+}
+
+#iniciarSesion{
+    background-color: rgb(73, 221, 15);
+    color: black;
+}
