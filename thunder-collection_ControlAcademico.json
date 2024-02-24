@@ -1,0 +1,259 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "ControlAcademico",
+    "dateExported": "2024-02-23T23:20:17.054Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "7878ea0e-2ff8-4f5b-a00c-f952d72ec1a2",
+            "name": "user",
+            "containerId": "",
+            "created": "2024-02-23T18:54:18.095Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "da0baa3f-7fb4-41f5-b865-a65115f199b3",
+            "name": "Course",
+            "containerId": "",
+            "created": "2024-02-23T18:54:33.694Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "0da6bb11-ff1a-49af-8b94-f0116ea06290",
+            "colId": "c292f874-133d-45bc-aa8e-f02d2cdd0d15",
+            "containerId": "7878ea0e-2ff8-4f5b-a00c-f952d72ec1a2",
+            "name": "RegisterUSer",
+            "url": "/registerUser",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-23T18:54:18.095Z",
+            "modified": "2024-02-23T19:48:00.456Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Ismael"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "lopez"
+                    },
+                    {
+                        "name": "email",
+                        "value": "ilopez@kinal"
+                    },
+                    {
+                        "name": "username",
+                        "value": "ilopez"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "24e6d0eb-6c89-4069-8290-925d51174b77",
+            "colId": "c292f874-133d-45bc-aa8e-f02d2cdd0d15",
+            "containerId": "7878ea0e-2ff8-4f5b-a00c-f952d72ec1a2",
+            "name": "Login",
+            "url": "/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-23T18:54:18.096Z",
+            "modified": "2024-02-23T19:40:49.403Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQ4ZWFiNjQ2YjNiZjQ5N2JkMDdjZjAiLCJ1c2VybmFtZSI6Im1sb3BleiIsIm5hbWUiOiJtaXNhZWwiLCJyb2xlIjoiU1RVREVOVF9ST0xFIiwiaWF0IjoxNzA4NzE3MjIwLCJleHAiOjE3MDg3MjgwMjB9.maiZb74IHWiwfibUvCr9nLLahoti4fwmgiDsFUkF52Q"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "mlopez"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "fb5d9de9-395c-424a-925c-e41dc19c1499",
+            "colId": "c292f874-133d-45bc-aa8e-f02d2cdd0d15",
+            "containerId": "7878ea0e-2ff8-4f5b-a00c-f952d72ec1a2",
+            "name": "Token",
+            "url": "/test",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-23T18:54:18.097Z",
+            "modified": "2024-02-23T18:58:26.972Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQ4ZWFiNjQ2YjNiZjQ5N2JkMDdjZjAiLCJ1c2VybmFtZSI6Im1sb3BleiIsIm5hbWUiOiJtaXNhZWwiLCJyb2xlIjoiU1RVREVOVF9ST0xFIiwiaWF0IjoxNzA4NzE0Njg5LCJleHAiOjE3MDg3MjU0ODl9.Z9zkY9m6mFSO0s0aBGpBgCLQmHPkXVTesNFRjtgHIIk"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "mlopez"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "ca947d5e-3279-44c8-834b-aad235d7553d",
+            "colId": "c292f874-133d-45bc-aa8e-f02d2cdd0d15",
+            "containerId": "da0baa3f-7fb4-41f5-b865-a65115f199b3",
+            "name": "AddCourse",
+            "url": "/course/addCourse",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-02-23T18:54:59.315Z",
+            "modified": "2024-02-23T19:02:06.528Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Quimica"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Experimentos"
+                    },
+                    {
+                        "name": "student",
+                        "value": "65d8eab646b3bf497bd07cf0"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "afba33ae-8727-419e-8d36-2da6d88c33db",
+            "colId": "c292f874-133d-45bc-aa8e-f02d2cdd0d15",
+            "containerId": "da0baa3f-7fb4-41f5-b865-a65115f199b3",
+            "name": "UpdateCourse",
+            "url": "/course/update/65d8eb738b354b8f228f8fc5",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-02-23T19:02:57.494Z",
+            "modified": "2024-02-23T22:02:40.425Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Matematicas"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Hola es un proyecto de vida"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "1f6ce744-1642-493d-9296-8f4608d3b99f",
+            "colId": "c292f874-133d-45bc-aa8e-f02d2cdd0d15",
+            "containerId": "da0baa3f-7fb4-41f5-b865-a65115f199b3",
+            "name": "DeleteCourse",
+            "url": "/course/delete/65d8eb8c8b354b8f228f8fc8",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-02-23T19:06:59.701Z",
+            "modified": "2024-02-23T19:07:42.855Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f8393d2f-63a0-4526-8d0e-fedef8790a32",
+            "colId": "c292f874-133d-45bc-aa8e-f02d2cdd0d15",
+            "containerId": "7878ea0e-2ff8-4f5b-a00c-f952d72ec1a2",
+            "name": "UpdateUser",
+            "url": "/update/65d8eab646b3bf497bd07cf0",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2024-02-23T19:32:38.554Z",
+            "modified": "2024-02-23T19:44:58.462Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Lester"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Lopez"
+                    },
+                    {
+                        "name": "email",
+                        "value": "llopez@kinal.edu.gt"
+                    },
+                    {
+                        "name": "username",
+                        "value": "llopez"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "2c631d33-b414-4702-8e67-74ad9c0757c4",
+            "colId": "c292f874-133d-45bc-aa8e-f02d2cdd0d15",
+            "containerId": "7878ea0e-2ff8-4f5b-a00c-f952d72ec1a2",
+            "name": "DeleteUser",
+            "url": "/delete/65d8f671b49277c2fa15a8b7",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2024-02-23T19:47:05.565Z",
+            "modified": "2024-02-23T19:48:41.046Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:3200"
+        }
+    }
+}
